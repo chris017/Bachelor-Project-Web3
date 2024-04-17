@@ -1,9 +1,7 @@
 import Layout from "../components/layout"
 import Image from "next/image"
 import { IDKitWidget, VerificationLevel } from '@worldcoin/idkit'
-function onSuccess(data) {
-  console.log(data)
-}
+
 export default function IndexPage() {
   return (
     <Layout>
